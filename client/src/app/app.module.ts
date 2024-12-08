@@ -11,12 +11,14 @@ import { UserModule } from './user/user.module';
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { ClientModule } from './client/client.module';
 import { ClientRoutingModule } from './client/client-routing.module';
+import { UserdetailComponent } from './userdetail/userdetail.component';
 
 ClarityIcons.addIcons(userIcon, cogIcon, vmBugIcon, pencilIcon, trashIcon, plusIcon, usersIcon, employeeIcon);
 
 @NgModule({
   declarations: [
-    AppComponent, 
+    AppComponent,
+    UserdetailComponent, 
 
   ],
   imports: [
